@@ -16,7 +16,7 @@ eagle = {
     "name": "Eagle",
     "group": "Birds",
     "number_of_legs": 2,
-    "skills": ["flying", "hunting", "sharp eyesight"]
+    "skills": ["flying", "hunting"]
 }
 
 fish = {
@@ -30,12 +30,14 @@ snake = {
     "name": "Snake",
     "group": "Reptiles",
     "number_of_legs": 0,
-    "skills": ["slithering", "hunting", "camouflage"]
+    "skills": ["slithering", "hunting"]
 }
 
-if __name__ == "__main__":
-    print(cat)
-    print(dog)
-    print(eagle)
-    print(fish)
-    print(snake)
+
+print(cat)
+print(dog)
+print(eagle)
+print(fish)
+print(snake)
+
+
